@@ -11,9 +11,10 @@ The library therefore omits some of the functions that were used to train and te
 ## Requirements
 <ol>
 <li> Python 3.4 or greater</li>
-<li>pandas-datareader 0.5</li>
+<li> pandas (0.20.3)</li>
+<li>pandas-datareader (0.5.0)</li>
 <li>scikit-learn (0.19.0)</li>
-<li>nolds</li>
+<li><a href="https://github.com/CSchoel/nolds">nolds</a></li>
 </ol>
 
 <hr>
