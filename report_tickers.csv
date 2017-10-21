@@ -1,0 +1,37 @@
+instrument,Symbol,Name,Sector,industry,path,validation_path,n_days
+S1000338,AMRK,"A-Mark Precious Metals, Inc.",Basic Industries,Other Specialty Stores,./yhoo_data/S1000338.csv,./validation/S1000338_20171018.csv,758
+S1000622,BAK,Braskem S.A.,Basic Industries,Major Chemicals,./yhoo_data/S1000622.csv,./validation/S1000622_20171018.csv,4397
+S1000047,ABX,Barrick Gold Corporation,Basic Industries,Precious Metals,./yhoo_data/S1000047.csv,./validation/S1000047_20171018.csv,6867
+S1001050,CBPX,"Continental Building Products, Inc.",Capital Goods,Building Materials,./yhoo_data/S1001050.csv,./validation/S1001050_20171018.csv,795
+S1005724,STRT,Strattec Security Corporation,Capital Goods,Auto Parts:O.E.M.,./yhoo_data/S1005724.csv,./validation/S1005724_20171018.csv,5408
+S1000001,AA,Alcoa Corporation,Capital Goods,Metal Fabrications,./yhoo_data/S1000001.csv,./validation/S1000001_20171018.csv,6867
+S1003811,MDWD,MediWound Ltd.,Consumer Durables,Specialty Chemicals,./yhoo_data/S1003811.csv,./validation/S1003811_20171018.csv,765
+S1006282,VII,"Vicon Industries, Inc.",Consumer Durables,Telecommunications Equipment,./yhoo_data/S1006282.csv,./validation/S1006282_20171018.csv,5508
+S1000313,AME,"AMTEK, Inc.",Consumer Durables,Metal Fabrications,./yhoo_data/S1000313.csv,./validation/S1000313_20171018.csv,6867
+S1003465,KN,Knowles Corporation,Consumer Non-Durables,Consumer Electronics/Appliances,./yhoo_data/S1003465.csv,./validation/S1003465_20171018.csv,788
+S1006247,VCO,Vina Concha Y Toro,Consumer Non-Durables,Beverages (Production/Distribution),./yhoo_data/S1006247.csv,./validation/S1006247_20171018.csv,5335
+S1000093,ADM,Archer-Daniels-Midland Company,Consumer Non-Durables,Packaged Foods,./yhoo_data/S1000093.csv,./validation/S1000093_20171018.csv,6867
+S1000882,BRG,"Bluerock Residential Growth REIT, Inc.",Consumer Services,Real Estate Investment Trusts,./yhoo_data/S1000882.csv,./validation/S1000882_20171018.csv,759
+S1003651,LOAN,"Manhattan Bridge Capital, Inc",Consumer Services,Real Estate Investment Trusts,./yhoo_data/S1003651.csv,./validation/S1003651_20171018.csv,3871
+S1000663,BBY,"Best Buy Co., Inc.",Consumer Services,Consumer Electronics/Video Chains,./yhoo_data/S1000663.csv,./validation/S1000663_20171018.csv,6867
+S1004119,NADL,North Atlantic Drilling Ltd.,Energy,Oil & Gas Production,./yhoo_data/S1004119.csv,./validation/S1004119_20171018.csv,800
+S1003926,MMLP,Martin Midstream Partners L.P.,Energy,Oil Refining/Marketing,./yhoo_data/S1003926.csv,./validation/S1003926_20171018.csv,3628
+S1000387,APA,Apache Corporation,Energy,Oil & Gas Production,./yhoo_data/S1000387.csv,./validation/S1000387_20171018.csv,6867
+S1001065,CCCR,"China Commercial Credit, Inc.",Finance,Major Banks,./yhoo_data/S1001065.csv,./validation/S1001065_20171018.csv,756
+S1005282,SAFT,"Safety Insurance Group, Inc.",Finance,Property-Casualty Insurers,./yhoo_data/S1005282.csv,./validation/S1005282_20171018.csv,3613
+S1000019,AB,AllianceBernstein Holding L.P.,Finance,Investment Managers,./yhoo_data/S1000019.csv,./validation/S1000019_20171018.csv,6867
+S1000193,AGTC,Applied Genetic Technologies Corporation,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),./yhoo_data/S1000193.csv,./validation/S1000193_20171018.csv,760
+S1003854,MGLN,"Magellan Health, Inc.",Health Care,Hospital/Nursing Management,./yhoo_data/S1003854.csv,./validation/S1003854_20171018.csv,3299
+S1000043,ABT,Abbott Laboratories,Health Care,Major Pharmaceuticals,./yhoo_data/S1000043.csv,./validation/S1000043_20171018.csv,6867
+S1005954,TNET,"TriNet Group, Inc.",Miscellaneous,Business Services,./yhoo_data/S1005954.csv,./validation/S1005954_20171018.csv,760
+S1004165,NCTY,The9 Limited,Miscellaneous,Business Services,./yhoo_data/S1004165.csv,./validation/S1004165_20171018.csv,3089
+S1000751,BID,Sothebys,Miscellaneous,Business Services,./yhoo_data/S1000751.csv,./validation/S1000751_20171018.csv,6867
+S1006389,VZA,Verizon Communications Inc.,Public Utilities,Telecommunications Equipment,./yhoo_data/S1006389.csv,./validation/S1006389_20171018.csv,781
+S1006050,TSU,TIM Participacoes S.A.,Public Utilities,Telecommunications Equipment,./yhoo_data/S1006050.csv,./validation/S1006050_20171018.csv,4623
+S1000128,AEP,"American Electric Power Company, Inc.",Public Utilities,Electric Utilities: Central,./yhoo_data/S1000128.csv,./validation/S1000128_20171018.csv,6867
+S1005246,RUBI,"The Rubicon Project, Inc.",Technology,"Computer Software: Programming, Data Processing",./yhoo_data/S1005246.csv,./validation/S1005246_20171018.csv,756
+S1003161,INS,Intelligent Systems Corporation,Technology,Computer Software: Prepackaged Software,./yhoo_data/S1003161.csv,./validation/S1003161_20171018.csv,4408
+S1000012,AAPL,Apple Inc.,Technology,Computer Manufacturing,./yhoo_data/S1000012.csv,./validation/S1000012_20171018.csv,6867
+S1005291,SALT,Scorpio Bulkers Inc.,Transportation,Marine Transportation,./yhoo_data/S1005291.csv,./validation/S1005291_20171018.csv,831
+S1000530,ATSG,"Air Transport Services Group, Inc",Transportation,Air Freight/Delivery Services,./yhoo_data/S1000530.csv,./validation/S1000530_20171018.csv,3448
+S1000273,ALK,"Alaska Air Group, Inc.",Transportation,Air Freight/Delivery Services,./yhoo_data/S1000273.csv,./validation/S1000273_20171018.csv,6867
