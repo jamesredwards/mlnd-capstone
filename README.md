@@ -24,7 +24,7 @@ The library therefore omits some of the functions that were used to train and te
 
 A utility class to run the model on given stock tickers. 
 
-model_runner makes use of the pandas_datareader Yahoo! Finance API. requests_cache is used in order to be a good web citizen, however Yahoo made some changes to the Yahoo! Finance website recently and whilst the pandas_datareader folks have done a fantastic job updating the library, it seems a little more fragile than previously.
+model_runner makes use of the pandas_datareader Yahoo! Finance API. requests_cache is used in order to be a good web citizen, however Yahoo made some changes to the Yahoo! Finance website recently and whilst the pandas_datareader folks have done a fantastic job updating the library, it seems a little more fragile than previously, so if it doesn't work first time it may be worth several times.
 
 > model_runner(stock_tickers, model_filepath, start_date, end_date)
 <ul>
