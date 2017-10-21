@@ -15,6 +15,7 @@ The library therefore omits some of the functions that were used to train and te
 <li>pandas-datareader (0.5.0)</li>
 <li>scikit-learn (0.19.0)</li>
 <li><a href="https://github.com/CSchoel/nolds">nolds</a></li>
+<li>requests-cache-0.4.13</li>
 </ol>
 
 <hr>
