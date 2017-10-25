@@ -124,7 +124,14 @@ class trader(object):
             self.price_data['rsi'] = self._calc_RSI()
 
             self.prices = self.price_data[px_col].copy()
-            self.price_data.drop(['Open', 'High', 'Low', 'Close', px_col, 'Volume', '1d_ret'], axis=1, inplace=True)
+            self.price_data.drop(['Open', 'High', 'Low', 
+                        'Close', px_col, 'Volume', 
+                        '1d_ret', '10_day_kurt', '5_day_skew',
+                        '5_day_kurt', '10_day_skew'], 
+                        axis=1, inplace=True)
+
+            #print(self.price_data.shape)
+                                   
             self.price_data.dropna(inplace=True)
 
   
@@ -178,6 +185,7 @@ class trader(object):
         self.features = self.price_data.copy()
         self.price_changes = self.price_changes.loc[self.features.index[0]:self.features.index[-1]].shift(-1)
         self.price_data = None
+        #print(self.features.shape)
 
     def create_multi_period_features_and_labels(self, periods):
         self.create_multi_period_features(periods)
@@ -270,7 +278,7 @@ class trader(object):
   
     def save_scores(self, clf, security, perf_stats):
         dir = self.model_save_path + str(security) + "/"
-        self._ensure_dir(dir)
+        #self._ensure_dir(dir)
         filepath = dir + str(security) + "_" + str(self.num_periods) + "_day_" + clf.__class__.__name__ + "_scores.csv"
         data = { "train_f1": self.train_score,
                 "test_f1": self.test_score,
